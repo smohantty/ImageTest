@@ -151,7 +151,7 @@ public:
                     std::cout<<"PASS\n";
                 }
             }
-            std::cout<<"\n Total TestCase : "<<list.size()<<" \t Passed : "<<list.size() - FailedTestCase<< " \t Failed : "<< FailedTestCase <<"\n\n";
+        std::cout<<"\n Total TestCase : "<<list.size()<<" \t Passed : "<<list.size() - FailedTestCase<< " \t Failed : "<< FailedTestCase <<"\n\n";
         }
     }
     void GenerateBaselineImage(const std::string& fileName, int w, int h)

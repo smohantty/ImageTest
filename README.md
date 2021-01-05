@@ -1,7 +1,7 @@
-#Build Dependancy
+# Build Dependancy
  - This application depends on [rlottie](https://github.com/Samsung/rlottie) and [thorvg](https://github.com/Samsung/thorvg) library please make sure its installed in the system.
  
-#Build
+# Build
 install [meson](http://mesonbuild.com/Getting-meson.html) and [ninja](https://ninja-build.org/) if not already installed.
 
 Run meson to configure ImageTest
@@ -11,7 +11,7 @@ meson build
 Run ninja to build ImageTest
 ```
 ninja -C build
-
+```
 
 # Run
 The imagetest application runs in 2 mode Test and Generation mode.
